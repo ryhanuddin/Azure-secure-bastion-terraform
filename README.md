@@ -148,7 +148,7 @@ The returned IP should match the NAT Gateway public IP.
 
 ### Azure Resource Visualizer
 
-![Azure resource visualizer](figures/azure-resource-visualizer.png)
+![Azure resource visualizer](figures/azure-resource-visualizer.jpg)
 
 ### Terraform Destroy
 
