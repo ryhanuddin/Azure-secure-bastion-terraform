@@ -1,0 +1,9 @@
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+prefix = "securebastion"
+
+location = "Central India"
+
+admin_username = "azureuser"
+
+ssh_public_key_path = "~/.ssh/id_rsa.pub"

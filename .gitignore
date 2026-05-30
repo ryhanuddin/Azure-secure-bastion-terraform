@@ -1,0 +1,25 @@
+# Terraform local directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Terraform variable files that may contain sensitive values
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform plan files
+*.tfplan
+plan.out
+
+# Terraform logs
+crash.log
+crash.*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
