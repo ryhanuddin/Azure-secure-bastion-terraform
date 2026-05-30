@@ -10,32 +10,6 @@ The Linux virtual machine is deployed without a public IP address. Administrativ
 
 ![Architecture Diagram](figures/architecture-diagram.png)
 
-```text
-Azure Resource Group
-│
-└── Virtual Network
-    │
-    ├── AzureBastionSubnet
-    │   └── Azure Bastion
-    │       └── Bastion Public IP
-    │
-    └── Private VM Subnet
-        │
-        ├── Linux VM
-        │   └── Network Interface
-        │
-        ├── Network Security Group
-        │
-        └── NAT Gateway
-            └── NAT Public IP
-
-Azure Monitor / Log Analytics
-│
-├── Log Analytics Workspace
-├── Data Collection Rule
-└── Azure Monitor Agent
-```
-
 ## Azure Services Used
 
 - Azure Resource Group
@@ -155,10 +129,6 @@ curl ifconfig.me
 The returned IP should match the NAT Gateway public IP.
 
 ## Screenshots
-
-### Architecture Diagram
-
-![Architecture Diagram](figures/architecture-diagram.png)
 
 ### Terraform Validation
 
